@@ -1,20 +1,20 @@
 # 🍺 Ignyt Beer Station
 
 
-### 👋 Welcome to my second website proyect. Rock Beer is a fictional bar where you could reserve a table selecting a combo from the product list.
+### 👋 Welcome to our website project.
 
-### 🍻 We want people who have doubts about where can I eat out get a great experience in our place.
+### 🍻 We want people who have doubts about where can I eat out get a great experience in this place.
 
 ## 🏠 Home section
 
 - In this section, Rock Beer offer his services with brand-storytelling accompanying with images
 - Also we show up the name, profile and review of our customers 
 
-## 🍔 Products section
+## 🍔 menu section
 
 - In products section we have of course all our combos as hamburguerses, chips, pizza, etc. in cards.
 
-## 📋 Landing section
+## 📋Events and promotions section
 
 - If our customers want to reserve on our website we have the landing section where you must put data as name, phone, how many people would gonna into, combo and date & hour that you gonna go into the local.
 
