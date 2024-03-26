@@ -1,4 +1,4 @@
-# 🍺 Rock Beer
+# 🍺 Ignyt Beer Station
 
 
 ### 👋 Welcome to my second website proyect. Rock Beer is a fictional bar where you could reserve a table selecting a combo from the product list.
