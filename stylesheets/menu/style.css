@@ -1,0 +1,104 @@
+@import url('../config/config.css');
+@import url('../config/menu.css');
+
+header {
+    background:	var(--black);
+	height: 7rem;
+}
+
+header img {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background: linear-gradient(180deg, var(--yellow-pamp) 16.69%, var(--brown-IPA) 100%);
+}
+
+section {
+    height: auto;
+    font-size: medium;
+    text-align: center;
+	padding-bottom: 10%;
+}
+
+
+
+
+
+
+/*Section*/
+
+section > p {
+	font-family: 'Domine', serif;
+	font-size: medium;
+	font-weight: bold;
+	padding: 4%;
+}
+
+#products--items article {
+	font-family: 'Abril Fatface', cursive;
+	color: var(--off-white);
+	background-color: var(--black);
+	margin: 2rem;
+	padding: 5%;
+	height: auto;
+	border-radius: 20px;
+}
+
+#products--items article > p {
+	font-size: 4rem;
+}
+
+#products--items article > div {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-direction: row;
+	padding: 3%;
+}
+
+#products--items article > div img {
+	margin-right: 2rem;
+	width: 50%;
+	height: 50%;
+}
+
+#products--items article div p {
+	margin: 1rem 0rem;
+}
+
+#products--items article div .product--items-price {
+	font-size: xx-large;
+	margin-bottom: 3rem;
+}
+
+#products--items article div a {
+	text-decoration: none;
+	color: var(--black);
+	font-size: 1.4rem;
+	font-weight: bold;
+	background: linear-gradient(325deg, var(--yellow-pamp) 16.69%, var(--red-scotish) 100%);
+	border-radius: 5px;
+	padding: 5%;
+	opacity: 50%;
+	transition: opacity 200ms linear;
+}
+
+#products--items article div a:hover {
+	opacity: 100%;
+	transition: opacity 200ms linear;
+}
+
+#products--items article div a:active {
+	color: var(--off-white);
+}
+
+
+/*Media queries*/
+
+@media screen and (max-width: 700px){
+	header img {
+		display: none;
+	}
+}

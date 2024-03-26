@@ -1,0 +1,42 @@
+
+header {
+	height: 7rem;
+}
+
+header img {
+    display: none;
+}
+
+section > p {
+    font-size: 4rem;
+}
+
+/*Menu*/
+
+menu li a{
+    font-size: 3rem;
+}
+
+/*Section*/
+
+#products--items article {
+	padding: 1%;
+}
+
+#products--items article > p {
+    font-size: 5rem;
+}
+
+#products--items article div p {
+    font-size: x-large;
+    margin-bottom: 3rem;
+}
+
+#products--items article > div img {
+	width: 40%;
+	height: 40%;
+}
+
+#products--items article div a {
+    font-size: xx-large;
+}

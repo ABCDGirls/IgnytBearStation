@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="ABCD Girls web project">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Domine:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=MonteCarlo&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arvo:wght@400;700&display=swap" rel="stylesheet">
+        
+        
+        <link rel="stylesheet" type="text/css" href="../stylesheets/landing/style.css">
+        <link rel="stylesheet" type="text/css" href="../stylesheets/landing/tablet.css" media="screen and (min-width: 720px)">
+        <link rel="stylesheet" type="text/css" href="../stylesheets/landing/desktop.css" media="screen and (min-width: 1000px)">
+        <title>Ignyt Beer Station🍺 | Landing</title>
+    </head>
+    <body>
+
+        <header></header>
+
+        <menu>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./products.html">Menu</a></li>
+                <li><a href="#">Events and promotions</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </menu>
+        
+        <section class="landing">
+            <article>
+                <div>
+                    <h2>
+                        Just 1 click to reserve 
+                        a great experience!
+                    </h2>
+                </div>
+                <form class="landing--card" action="https://formspree.io/f/xvolorzv"
+                method="POST">
+                    <input id="landing--card-name" type="text" placeholder="name" name="name" required/>
+                    <input id="landing--card-tel" type="tel" name="phone" placeholder="phone"/>
+                    <div>
+                        <input id="landing--card-day" type="date" name="day" min="2017-04-01" max="2017-04-30" required/>
+                        <input id="landing--card-hour" type="time" name="hour" min="18:00" max="03:00" required/>
+                    </div>
+                    <input id="landing--card-amount" type="number" name="amount" placeholder="# friends" required/>
+                    <input id="landing--card-products" list="products" name="products" placeholder="combo" required/>
+                    <datalist id="products">
+
+                    </datalist> 
+                    <button id="landing--card-button" type="submit">Reserve</button>
+                </form>
+            </article>
+        </section>
+        <script src="../js/landing.js"></script>
+    </body>
+</html>

@@ -1,0 +1,34 @@
+
+
+/*Menu*/
+
+menu li a {
+    font-size: 3rem;
+}
+
+
+/*landing page*/
+
+.landing {
+    padding: 0 9% 0 9%;
+}
+
+.landing article {
+    padding: 2%; 
+    margin: 3rem 2rem 5rem 2rem;
+}
+
+.landing article input {
+    width: 500px;
+    font-size: large;
+    padding: 2%;
+}
+
+.landing article div {
+    display: inline-block;
+    padding: 0;
+}
+
+.landing article button {
+     width: 450px;
+}

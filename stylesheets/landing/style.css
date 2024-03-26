@@ -1,0 +1,79 @@
+@import url('../config/config.css');
+@import url('../config/menu.css');
+
+header {
+    height: 7rem;
+    background: linear-gradient(90deg, var(--yellow-pamp) 16.69%, var(--brown-IPA) 100%);
+}
+
+
+/*Landing section*/
+
+body {
+    background-color: var(--black);
+    height: auto;
+}   
+
+.landing {
+    padding: 5%;
+}
+
+.landing article{
+    background-color: var(--off-white);
+    padding: 10%;
+    margin: 3rem 2rem 10rem 2rem;
+    border-radius: 30px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: auto;
+}
+
+.landing article h2 {
+    margin-top: 1rem;
+    font-size: large;
+    margin-bottom: 3rem;
+}
+
+.landing article input {
+    border-radius: 8px;
+    font-size: large;
+    width: 90%;
+    padding: 5%;
+    border-color: var(--black);
+    margin: 0.7rem;
+    text-align: center;
+}
+
+
+
+.landing article button {
+    font-weight: bold;
+    margin-top: 3rem;
+    border-radius: 8px;
+    font-size: large;
+    padding: 3%;
+    background-color: #FFFFFF;
+    transform: scale(1);
+    transition: all 200ms linear;
+}
+
+.landing article button:hover {
+    transform: scale(1.1);
+    background-color: var(--yellow-pamp);
+    transition: all 200ms linear;
+}
+
+.landing article button:active {
+    color: var(--red-scotish);
+    transition: none;
+}
+
+@media screen and (max-width: 760px) {
+    
+    img {
+        display: none;
+    }
+
+}
+
+

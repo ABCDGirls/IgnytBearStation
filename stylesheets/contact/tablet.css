@@ -1,0 +1,16 @@
+/*menu*/
+
+menu li a {
+    font-size: x-large;
+}
+
+/*Contact section*/
+
+body article h2 {
+    font-size: xx-large;
+}
+
+body article p {
+    margin: 4rem 4rem;
+    font-size: x-large;
+}
