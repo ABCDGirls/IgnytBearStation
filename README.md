@@ -7,12 +7,12 @@
 
 ## 🏠 Home section
 
-- In this section, Rock Beer offer his services with brand-storytelling accompanying with images
+- In this section, Ignyt Beer Station offer his services with brand-storytelling accompanying with images
 - Also we show up the name, profile and review of our customers 
 
 ## 🍔 menu section
 
-- In products section we have of course all our combos as hamburguerses, chips, pizza, etc. in cards.
+- In products section we have of course all the combos with beer.
 
 ## 📋Events and promotions section
 
